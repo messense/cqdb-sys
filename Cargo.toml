@@ -1,0 +1,19 @@
+[package]
+name = "cqdb-sys"
+version = "0.1.0"
+authors = ["messense <messense@icloud.com>"]
+description = "Low level Rust binding to CQDB"
+edition = "2018"
+links = "cqdb"
+license = "MIT"
+repository = "https://github.com/messense/cqdb-sys"
+keywords = ["cdb", "cqdb", "crfsuite"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.82"
+
+[build-dependencies]
+cmake = "0.1.45"
