@@ -1,6 +1,6 @@
 [package]
 name = "cqdb-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["messense <messense@icloud.com>"]
 description = "Low level Rust binding to CQDB"
 edition = "2018"
