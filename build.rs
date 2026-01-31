@@ -2,6 +2,7 @@ use std::env;
 
 fn main() {
     let mut cfg = cmake::Config::new("src/cqdb");
+    cfg.define("CMAKE_POLICY_VERSION_MINIMUM", "3.5");
     let target_os = env::var("CARGO_CFG_TARGET_OS").unwrap();
     if target_os == "macos" {
         let target_arch = env::var("CARGO_CFG_TARGET_ARCH").unwrap();
